@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:potion",
+    "#minecraft:leaves",
+    "#tweaks:hot",
+    "closed_eyeblossom"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "awkward",
+        "custom_name": "Closed Eyeblossom Tea",
+        "custom_effects": [
+          {
+            "id": "nausea",
+            "duration": 600
+          }
+        ]
+      },
+      "minecraft:custom_name": "§fClosed Eyeblossom Tea"
+    }
+  }
+}

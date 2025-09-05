@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:potion",
+    "#minecraft:leaves",
+    "#tweaks:hot",
+    "cornflower"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "awkward",
+        "custom_name": "Cornflower Tea",
+        "custom_effects": [
+          {
+            "id": "jump_boost",
+            "duration": 600
+          }
+        ]
+      },
+      "minecraft:custom_name": "§fCornflower Tea"
+    }
+  }
+}

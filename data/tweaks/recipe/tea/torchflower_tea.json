@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:potion",
+    "#minecraft:leaves",
+    "#tweaks:hot",
+    "torchflower"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "awkward",
+        "custom_name": "Torchflower Tea",
+        "custom_effects": [
+          {
+            "id": "night_vision",
+            "duration": 600
+          }
+        ]
+      },
+      "minecraft:custom_name": "§fTorchflower Tea"
+    }
+  }
+}

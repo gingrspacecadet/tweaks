@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:honey_bottle",
+    "#minecraft:leaves",
+    "#tweaks:hot",
+    "oxeye_daisy"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "awkward",
+        "custom_name": "Sweetened Oxeye Daisy Tea",
+        "custom_effects": [
+          {
+            "id": "regeneration",
+            "duration": 2400
+          }
+        ]
+      },
+      "minecraft:custom_name": "§fSweetened Oxeye Daisy Tea"
+    }
+  }
+}

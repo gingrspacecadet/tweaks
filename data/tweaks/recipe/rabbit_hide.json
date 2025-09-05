@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+    "id": "minecraft:rabbit_hide",
+    "components": {
+      "minecraft:custom_name": "§fLeather Scrap"
+    }
+  },
+  "experience": 10
+}

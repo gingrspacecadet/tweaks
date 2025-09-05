@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:honey_bottle",
+    "#minecraft:leaves",
+    "#tweaks:hot",
+    "allium"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "awkward",
+        "custom_name": "Sweetened Allium Tea",
+        "custom_effects": [
+          {
+            "id": "fire_resistance",
+            "duration": 2400
+          }
+        ]
+      },
+      "minecraft:custom_name": "§fSweetened Allium Tea"
+    }
+  }
+}
